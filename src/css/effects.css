@@ -1,0 +1,16 @@
+.press:active {
+    transform: scale(0.98);
+}
+
+.btn {
+    background-image: radial-gradient(#19b01f, #35da6a);
+}
+
+.blueGradientBg {
+    background-image: radial-gradient(#339af0, #098fff);
+}
+
+.selection:hover {
+    background-color: #f7f7f7;
+}
+
