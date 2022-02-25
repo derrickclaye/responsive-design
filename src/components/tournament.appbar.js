@@ -69,7 +69,7 @@ const TournamentAppbar = () => {
                             </Box>
                         
                             <Box sx={{display: 'flex', flexDirection: 'row'}}>
-                                <Typography sx={{color: '#1493FF', fontWeight: 'bold', fontsize:13}}>Enter Tournament</Typography>
+                                <Typography sx={{color: '#1493FF', fontWeight: 'bold', fontsize:13}}>Enter Tourney</Typography>
                                 <ArrowForwardIosIcon sx={{color: '#1493FF'}} fontSize='small' />
                             </Box>
                         </Toolbar>
