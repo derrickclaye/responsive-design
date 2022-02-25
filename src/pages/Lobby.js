@@ -1,5 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { Typography, Box, Dialog, DialogTitle, Button } from '@mui/material';
 import AvailableContestsContext from '../contexts/available.contest.context';
 import PromoSlider from '../components/promo.slider.component';
@@ -10,25 +11,18 @@ import Promo2 from '../assets/images/promo2.png';
 
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import { isDesktop, isMobileOnly, isTablet } from 'react-device-detect';
-import { SUMMARY_READ } from '../redux/ui/ui.actions';
-import '../css/effects.css';
 
-const SummaryDialog = (open, handleClose) => {
-    <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>SUMMARY</DialogTitle>
-    </Dialog>
-}
+import '../css/effects.css';
 
 
 const Lobby = () => {
 
-    const dispatch = useDispatch();
+    const navigate = useNavigate();
     const league = useSelector(state => state.ui.league);
-    const read = useSelector(state => state.ui.read);
     const { width, height } = useWindowDimensions();
     const [ promoContainerStyles, setPromoContainerStyles ] = useState({});
     const [ contests, setContests] = useState(null);
-    const [open, setOpen] = useState(true);
+
 
     useEffect(() => {
         if(isDesktop) {
@@ -65,8 +59,8 @@ const Lobby = () => {
           
         }
     },[width])
-        
-    if(!sessionStorage.getItem('read')) return (
+    
+    if(!sessionStorage.getItem('read')) return ( 
         <Box sx={{p:4}}>
             <Typography sx={{mb:1}}>Summary</Typography>
             <Typography sx={{mb:1}}>
@@ -79,7 +73,7 @@ const Lobby = () => {
             </Typography>
             <Button  variant='outlined' onClick={() => {
                 sessionStorage.setItem('read', true);
-                setOpen(false);
+                navigate('/lobby');
             }}>Enter Lobby</Button>
         </Box>
     )
@@ -114,9 +108,9 @@ const Lobby = () => {
             </Box>
             
              <LeagueNavbar />
-             <AvailableContestsContext.Provider value={contests}>
-                 <AvailableContests />
-             </AvailableContestsContext.Provider>
+        
+             <AvailableContests />
+         
              
             
         </Box>
