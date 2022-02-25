@@ -391,7 +391,53 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
-                     
+                    <Box sx={{ pl:4, pr:4 }}>
+                        <Box sx={{display: 'flex', flexDirection: 'row', mb:4}}>
+                            {
+                                contestType === 0 && 
+                                <Box>
+                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
+                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Daily Pick Em contest <br></br> to play with your friends or 1 v 1.</Typography>
+                                </Box>
+                            }
+                            {
+                                contestType === 1 && 
+                                <Box>
+                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
+                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Tournament <br></br> to play with your friends or 1 v 1.</Typography>
+                                </Box>
+                            }
+                            {
+                                contestType === 2 && 
+                                <Box>
+                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
+                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom 50/50 <br></br> to play with your friends.</Typography>
+                                </Box>
+                            }
+                            {
+                                contestType === 3 && 
+                                <Box>
+                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
+                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Head to Head <br></br> to play with your friends.</Typography>
+                                </Box>
+                            }
+                            <Box sx={{ml: 5, color: '#818E95'}}>
+                                <Typography sx={{fontWeight: '600', fontSize: 14}}>Legend</Typography>
+                                <Typography sx={{fontSize: 12}}>unique - all your entries are placed in unique rooms </Typography>
+                                <Typography sx={{fontSize: 12}}>multi entry - contest supports multiple entries </Typography>
+                                <Typography sx={{fontSize: 12}}>single entry - contest supports 1 entry per user </Typography>
+                            </Box>
+                            
+                        </Box>
+                        <PickemAppbar />
+                        <TournamentAppbar />
+                        <PickemAppbar />
+                        <PickemAppbar />
+                        <PickemAppbar />
+                        <PickemAppbar />
+
+                        
+                    </Box>
                 </Box>
                 
             }
