@@ -1913,14 +1913,27 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
-                     
+                    <Box sx={{display: 'flex', flexDirection: 'column'}}>
+                        
+                        <Box sx={{color: '#818E95', ml:2, mb:1}}>
+                            <Typography sx={{fontWeight: '600', fontSize: 14}}>Legend</Typography>
+                            <Typography sx={{fontSize: 12}}><b>u</b> - all your entries are placed in unique rooms </Typography>
+                            <Typography sx={{fontSize: 12}}><b>m</b> - contest supports multiple entries </Typography>
+                            <Typography sx={{fontSize: 12}}><b>s</b> - contest supports 1 entry per user </Typography>
+                            <Typography sx={{fontSize: 12}}><b>w</b> - winner takes all </Typography>
+                            <Typography sx={{fontSize: 12}}><b>mw</b> - multiple winners split prize pot </Typography>
+                        </Box>
+                        
+                    </Box>
+                    
                 </Box>
             }
 
             {/* MOBILE - BASEBALL */}
             {
                 isMobileOnly === true && league === 'mlb' &&
-                <Box sx={{ pl:4, pr:4}}>
+                <Box>
+                    <Box sx={{ pl:4, pr:4}}>
                         <AppBar position='static' sx={{
                             minHeight: 115,
                             mt: 6,
@@ -2027,12 +2040,27 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
+                    <Box sx={{display: 'flex', flexDirection: 'column'}}>
+                        
+                        <Box sx={{color: '#818E95', ml:2, mb:1}}>
+                            <Typography sx={{fontWeight: '600', fontSize: 14}}>Legend</Typography>
+                            <Typography sx={{fontSize: 12}}><b>u</b> - all your entries are placed in unique rooms </Typography>
+                            <Typography sx={{fontSize: 12}}><b>m</b> - contest supports multiple entries </Typography>
+                            <Typography sx={{fontSize: 12}}><b>s</b> - contest supports 1 entry per user </Typography>
+                            <Typography sx={{fontSize: 12}}><b>w</b> - winner takes all </Typography>
+                            <Typography sx={{fontSize: 12}}><b>mw</b> - multiple winners split prize pot </Typography>
+                        </Box>
+                        
+                    </Box>
+                    
+                </Box>
             }
 
             {/* MOBILE - HOCKEY */}
             {
                 isMobileOnly === true && league === 'nhl' &&
-                <Box sx={{ pl:4, pr:4}}>
+                <Box>
+                    <Box sx={{ pl:4, pr:4}}>
                         <AppBar position='static' sx={{
                             minHeight: 115,
                             mt: 6,
@@ -2139,6 +2167,19 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
+                    <Box sx={{display: 'flex', flexDirection: 'column'}}>
+                        
+                        <Box sx={{color: '#818E95', ml:2, mb:1}}>
+                            <Typography sx={{fontWeight: '600', fontSize: 14}}>Legend</Typography>
+                            <Typography sx={{fontSize: 12}}><b>u</b> - all your entries are placed in unique rooms </Typography>
+                            <Typography sx={{fontSize: 12}}><b>m</b> - contest supports multiple entries </Typography>
+                            <Typography sx={{fontSize: 12}}><b>s</b> - contest supports 1 entry per user </Typography>
+                            <Typography sx={{fontSize: 12}}><b>w</b> - winner takes all </Typography>
+                            <Typography sx={{fontSize: 12}}><b>mw</b> - multiple winners split prize pot </Typography>
+                        </Box>
+                        
+                    </Box>
+                </Box>
             }
         </>
     )
