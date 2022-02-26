@@ -1412,56 +1412,7 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
-                    <Box sx={{ pl:4, pr:4 }}>
-                        <Box sx={{display: 'flex', flexDirection: 'row'}}>
-                            {
-                                contestType === 0 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Daily Pick Em contest <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 1 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Tournament <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 2 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 3 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom MINI GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            <Box sx={{ml: 5, color: '#818E95'}}>
-                                <Typography sx={{fontWeight: '600', fontSize: 16}}>Legend</Typography>
-                                <Typography sx={{fontSize: 14}}>unique - all your entries are placed in unique rooms </Typography>
-                                <Typography sx={{fontSize: 14}}>multi entry - contest supports multiple entries </Typography>
-                                <Typography sx={{fontSize: 14}}>single entry - contest supports 1 entry per user </Typography>
-                            </Box>
-                            
-                        </Box>
-                        <PickemAppbar />
-                        <TournamentAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-
-                        
-                    </Box>
+                    
                      
                 </Box>
             }
@@ -1587,57 +1538,6 @@ const AvailableContests = () => {
                             </Toolbar>
                         </AppBar>
                     </Box>
-                    <Box sx={{ pl:4, pr:4 }}>
-                        <Box sx={{display: 'flex', flexDirection: 'row'}}>
-                            {
-                                contestType === 0 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Daily Pick Em contest <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 1 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Tournament <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 2 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 3 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom MINI GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            <Box sx={{ml: 5, color: '#818E95'}}>
-                                <Typography sx={{fontWeight: '600', fontSize: 16}}>Legend</Typography>
-                                <Typography sx={{fontSize: 14}}>unique - all your entries are placed in unique rooms </Typography>
-                                <Typography sx={{fontSize: 14}}>multi entry - contest supports multiple entries </Typography>
-                                <Typography sx={{fontSize: 14}}>single entry - contest supports 1 entry per user </Typography>
-                            </Box>
-                            
-                        </Box>
-                        <PickemAppbar />
-                        <TournamentAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-
-                        
-                    </Box>
-                     
                 </Box>
             }
 
@@ -1761,56 +1661,6 @@ const AvailableContests = () => {
                                 
                             </Toolbar>
                         </AppBar>
-                    </Box>
-                    <Box sx={{ pl:4, pr:4 }}>
-                        <Box sx={{display: 'flex', flexDirection: 'row'}}>
-                            {
-                                contestType === 0 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Daily Pick Em contest <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 1 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom Tournament <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 2 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            {
-                                contestType === 3 && 
-                                <Box>
-                                    <Button sx={{mb:.5}} className='btn' variant='contained'>Create Contest</Button>
-                                    <Typography sx={{color: '#818E95', fontWeight: '600', fontSize: 12}}>Create a custom MINI GRID <br></br> to play with your friends or 1 v 1.</Typography>
-                                </Box>
-                            }
-                            <Box sx={{ml: 5, color: '#818E95'}}>
-                                <Typography sx={{fontWeight: '600', fontSize: 16}}>Legend</Typography>
-                                <Typography sx={{fontSize: 14}}>unique - all your entries are placed in unique rooms </Typography>
-                                <Typography sx={{fontSize: 14}}>multi entry - contest supports multiple entries </Typography>
-                                <Typography sx={{fontSize: 14}}>single entry - contest supports 1 entry per user </Typography>
-                            </Box>
-                            
-                        </Box>
-                        <PickemAppbar />
-                        <TournamentAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-                        <PickemAppbar />
-
-                        
                     </Box>
                      
                 </Box>
@@ -1965,95 +1815,101 @@ const AvailableContests = () => {
                             bgcolor: 'white'
                         }}>
                             <Toolbar sx={{justifyContent: 'center', display: 'flex', flexDirection: 'row', color: '#818E95'}}>
-                                <Box sx={{
-                                    display: 'flex',
-                                    flexDirection: 'row',
-                                    flex: 1,
-                                    alignItems: 'center'
-                                }} >
-                                    <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
-                                    {
-                                        contestType === 0 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1,                                            
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                <Box sx={{display: 'flex', flexDirection: 'column' }}>
+                                    <Typography sx={{textAlign: 'right'}}>{contestType+1}/4</Typography>
+                                    <Box sx={{
+                                        display: 'flex',
+                                        flexDirection: 'row',
+                                        flex: 1,
+                                        alignItems: 'center',
+                                        mb: 1
+                                    }} >
+                                        <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
+                                        {
+                                            contestType === 0 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 1 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 1 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 2 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 2 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Finish in the top half and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 3 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Finish in the top half and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 3 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Compete against a single opponent. Winner takes all!</Typography>
-                                        </Box>
-                                    }
-                                    <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Compete against a single opponent. Winner takes all!</Typography>
+                                            </Box>
+                                        }
+                                        <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                    </Box>
+                                    <Button size='small' className='btn' variant='contained'>Create Custom Contest</Button>
                                 </Box>
+                                
                             </Toolbar>
                         </AppBar>
                     </Box>
@@ -2064,8 +1920,7 @@ const AvailableContests = () => {
             {/* MOBILE - BASEBALL */}
             {
                 isMobileOnly === true && league === 'mlb' &&
-                <Box>
-                    <Box sx={{ pl:4, pr:4}}>
+                <Box sx={{ pl:4, pr:4}}>
                         <AppBar position='static' sx={{
                             minHeight: 115,
                             mt: 6,
@@ -2074,107 +1929,110 @@ const AvailableContests = () => {
                             bgcolor: 'white'
                         }}>
                             <Toolbar sx={{justifyContent: 'center', display: 'flex', flexDirection: 'row', color: '#818E95'}}>
-                                <Box sx={{
-                                    display: 'flex',
-                                    flexDirection: 'row',
-                                    flex: 1,
-                                    alignItems: 'center'
-                                }} >
-                                    <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
-                                    {
-                                        contestType === 0 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                <Box sx={{display: 'flex', flexDirection: 'column' }}>
+                                    <Typography sx={{textAlign: 'right'}}>{contestType+1}/4</Typography>
+                                    <Box sx={{
+                                        display: 'flex',
+                                        flexDirection: 'row',
+                                        flex: 1,
+                                        alignItems: 'center',
+                                        mb: 1
+                                    }} >
+                                        <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
+                                        {
+                                            contestType === 0 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 1 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 1 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 2 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 2 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Finish in the top half and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 3 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Finish in the top half and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 3 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Compete against a single opponent. Winner takes all!</Typography>
-                                        </Box>
-                                    }
-                                    <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Compete against a single opponent. Winner takes all!</Typography>
+                                            </Box>
+                                        }
+                                        <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                    </Box>
+                                    <Button size='small' className='btn' variant='contained'>Create Custom Contest</Button>
                                 </Box>
+                                
                             </Toolbar>
                         </AppBar>
                     </Box>
-                     
-                </Box>
             }
 
             {/* MOBILE - HOCKEY */}
             {
                 isMobileOnly === true && league === 'nhl' &&
-                <Box>
-                    <Box sx={{ pl:4, pr:4}}>
+                <Box sx={{ pl:4, pr:4}}>
                         <AppBar position='static' sx={{
                             minHeight: 115,
                             mt: 6,
@@ -2183,106 +2041,104 @@ const AvailableContests = () => {
                             bgcolor: 'white'
                         }}>
                             <Toolbar sx={{justifyContent: 'center', display: 'flex', flexDirection: 'row', color: '#818E95'}}>
-                                <Box sx={{
-                                    display: 'flex',
-                                    flexDirection: 'row',
-                                    flex: 1,
-                                    alignItems: 'center'
-                                }} >
-                                    <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
-                                    {
-                                        contestType === 0 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            borderBottomWidth: 3, 
-                                            borderBottomStyle: 'solid', 
-                                            borderBottomColor: '#1493FF',
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                <Box sx={{display: 'flex', flexDirection: 'column' }}>
+                                    <Typography sx={{textAlign: 'right'}}>{contestType+1}/4</Typography>
+                                    <Box sx={{
+                                        display: 'flex',
+                                        flexDirection: 'row',
+                                        flex: 1,
+                                        alignItems: 'center',
+                                        mb: 1
+                                    }} >
+                                        <ArrowBackIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={decStep} />
+                                        {
+                                            contestType === 0 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 1 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            borderBottomWidth: 3, 
-                                            borderBottomStyle: 'solid', 
-                                            borderBottomColor: '#1493FF',
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Daily Pick Em</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Contests with great ODDS and high payouts. Just pick your lineup, tiebreaker - and you're all set!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 1 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 2 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                                <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Tournaments</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Elimination style contest that lasts for 3 days. Make it to the end of day 3 and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 2 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Finish in the top half and split the prize pot!</Typography>
-                                        </Box>
-                                    }
-                                    {
-                                        contestType === 3 &&
-                                        <Box sx={{
-                                            flex:1, 
-                                            textAlign:'center', 
-                                            height: 115, 
-                                            pt: 1, 
-                                            cursor: 'pointer',
-                                            justifyContent: 'center'
-                                    
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>50/50s</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Finish in the top half and split the prize pot!</Typography>
+                                            </Box>
+                                        }
+                                        {
+                                            contestType === 3 &&
+                                            <Box sx={{
+                                                flex:1, 
+                                                textAlign:'center', 
+                                                height: 115, 
+                                                pt: 1, 
+                                                cursor: 'pointer',
+                                                justifyContent: 'center'
                                         
-                                        }}>
-                                        <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
-                                            <Typography sx={{
-                                                fontWeight:'bold',
-                                                fontSize:14,
-                                                textAlign: 'center'
-                                            }}>Compete against a single opponent. Winner takes all!</Typography>
-                                        </Box>
-                                    }
-                                    <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                            
+                                            }}>
+                                            <Typography sx={{color:'#1493FF', fontSize: 18, fontWeight: 'bold'}}>Head to Heads</Typography>
+                                                <Typography sx={{
+                                                    fontWeight:'bold',
+                                                    fontSize:14,
+                                                    textAlign: 'center'
+                                                }}>Compete against a single opponent. Winner takes all!</Typography>
+                                            </Box>
+                                        }
+                                        <ArrowForwardIosIcon className='press' sx={{cursor: 'pointer', color: '#1493FF'}} onClick={incStep} />
+                                    </Box>
+                                    <Button size='small' className='btn' variant='contained'>Create Custom Contest</Button>
                                 </Box>
+                                
                             </Toolbar>
                         </AppBar>
                     </Box>
-                     
-                </Box>
             }
         </>
     )
